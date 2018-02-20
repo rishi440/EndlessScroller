@@ -1,1 +1,34 @@
-<h1>Hello World </h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>KSRun</title>
+  <link rel="stylesheet" href="KSRun.css" type="text/css" media="screen">
+  <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+      <div id="menu">
+        <div id="progress">
+        <div id="percent">Downloading: <span id="p"></span></div>
+        <progress id='progress-bar' value = '0'></progress>  
+      </div>
+      <div id="main">
+        <h1>Kiersey's Run</h1> 
+         <ul>
+          <li><a href="#" class="play">Start Game</a></li>
+        </ul>  
+        </div>           
+    </div>
+    <canvas id="canvas" width="800" height="800">
+      <p>You're browser does not support the required functionality to play this game.</p>
+      <p>Please update to a modern browser such as <a href="www.google.com/chrome/‎">Google Chrome</a> to play.</p>
+    </canvas>
+    <div id="game-over">
+      <h2>You ran <span color="white" id="score"></span> meters!</h2>
+      <a href="#" class="restart">Try again?</a>
+    </div>
+  </div>
+  <script type="text/javascript" src="KSRun.js"></script>
+</body>
+</html>
