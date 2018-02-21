@@ -765,7 +765,7 @@
 
   document.onkeydown = function(e) {
     var keyCode = (e.keyCode) ? e.keyCode : e.charCode;
-    console.log(keyCode);
+   
     if (KEY_CODES[keyCode]) {
       e.preventDefault();
       KEY_STATUS[KEY_CODES[keyCode]] = true;
