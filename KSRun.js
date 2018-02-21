@@ -37,13 +37,10 @@
   var assetLoader = (function() {
     // images dictionary
     this.imgs        = {
-      'bg'            : 'imgs/bg.png',
       'sky'           : 'imgs/sky.png',
       'backdrop'      : 'imgs/backdrop.png',
-      //'backdrop2'     : 'imgs/backdrop_ground.png',
       'grey'         : 'imgs/grey.png',
       'avatar_normal' : 'imgs/normal_walk_.png',
-      //'lava'          : 'imgs/lava.png',
       'grey2'        : 'imgs/grey2.png',
       'grey3'        : 'imgs/grey3.png',
       'bridge'        : 'imgs/bridge.png',
@@ -244,7 +241,6 @@
      * Draw the backgrounds to the screen at different speeds
      */
     this.draw = function() {
-      ctx.drawImage(assetLoader.imgs.bg, 0, 0);
 
       // Pan background
       sky.x -= sky.speed;

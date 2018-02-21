@@ -2,6 +2,7 @@
 body {
   font-family: arial, sans-serif;
   font-size: 16px;
+  overflow:hidden;
  }
 
  canvas {
@@ -130,14 +131,14 @@ a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: #FB1886;
-  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #FB1886), color-stop(1, #B30D5D) );
-  background-image: -o-linear-gradient(bottom, #FB1886 0%, #B30D5D 100%);
-  background-image: -moz-linear-gradient(bottom, #FB1886 0%, #B30D5D 100%);
-  background-image: -webkit-linear-gradient(bottom, #FB1886 0%, #B30D5D 100%);
-  background-image: -ms-linear-gradient(bottom, #FB1886 0%, #B30D5D 100%);
-  background-image: linear-gradient(to bottom, #FB1886 0%, #B30D5D 100%);
-  color: white;
+  background-color: #8918fa;
+  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #8918fa), color-stop(1, #B30D5D) );
+  background-image: -o-linear-gradient(bottom, #8918fa 0%, #B30D5D 100%);
+  background-image: -moz-linear-gradient(bottom, #8918fa 0%, #B30D5D 100%);
+  background-image: -webkit-linear-gradient(bottom, #8918fa 0%, #B30D5D 100%);
+  background-image: -ms-linear-gradient(bottom, #8918fa 0%, #B30D5D 100%);
+  background-image: linear-gradient(to bottom, #8918fa 0%, #B30D5D 100%);
+  color: yellow;
   font-weight: 900;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -156,12 +157,12 @@ a {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background-color: #B30D5D;
-  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #B30D5D), color-stop(1, #FB1886) );
-  background-image: -o-linear-gradient(bottom, #B30D5D 0%, #FB1886 100%);
-  background-image: -moz-linear-gradient(bottom, #B30D5D 0%, #FB1886 100%);
-  background-image: -webkit-linear-gradient(bottom, #B30D5D 0%, #FB1886 100%);
-  background-image: -ms-linear-gradient(bottom, #B30D5D 0%, #FB1886 100%);
-  background-image: linear-gradient(to bottom, #B30D5D 0%, #FB1886 100%);
+  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #B30D5D), color-stop(1, #8918fa) );
+  background-image: -o-linear-gradient(bottom, #B30D5D 0%, #8918fa 100%);
+  background-image: -moz-linear-gradient(bottom, #B30D5D 0%, #8918fa 100%);
+  background-image: -webkit-linear-gradient(bottom, #B30D5D 0%, #8918fa 100%);
+  background-image: -ms-linear-gradient(bottom, #B30D5D 0%, #8918fa 100%);
+  background-image: linear-gradient(to bottom, #B30D5D 0%, #8918fa 100%);
   color: white;
   font-weight: 900;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
