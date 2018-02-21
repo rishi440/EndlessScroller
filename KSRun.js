@@ -865,6 +865,22 @@
     $('#menu').hide();
     startGame();
   });
+    $('.credits').on('click touchstart', function() {
+    $('#credits').show();
+    $('#main').hide();   
+  });   
+    $('.instructions').on('click touchstart', function() {
+    $('#instructions').show();
+    $('#main').hide();   
+  });
+  $('.back').on('click touchstart', function() {
+    $('#main').show();
+    $('#credits').hide();   
+  });
+    $('.back2').on('click touchstart', function() {
+    $('#main').show();
+    $('#instructions').hide();   
+  });
 
   $('.restart').on('click touchstart', function() {
     $('#game-over').hide();

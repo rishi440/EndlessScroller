@@ -17,15 +17,33 @@
         <h1>Kiersey's Run</h1> 
          <ul>
           <li><a href="#" class="play">Start Game</a></li>
+          <li><a href="#" class="instructions">Instructions</a></li>
+          <li><a href="#" class="credits">Credits</a></li>
         </ul>  
-        </div>           
+      </div> 
+      <div id="credits">
+        <ul>
+          <li class="artwork">Based On: <a href="https://github.com/tutsplus/kandi-runner/">Kandi Runner</a></li>
+          <li class="artwork">Character design: <a href="http://gaurav.munjal.us/Universal-LPC-Spritesheet-Character-Generator">Universal LPC Sprite Generator</a></li>
+          <li class="artwork">Backgrounds and Music: <a href="https://OpenGameArt.org"> OpenGameArt</a></li>
+          <li class="artwork">Developer: Rishi</li>
+        </ul> 
+        <div><a href="#" class="back">Back</a></div>         
+    </div>
+    <div id="instructions">
+        <ul>
+          <li> Press Space or tap screen to jump </li>
+          <li> Double tap Space/Screen to double jump (depending on height of jump, triple jump may be possible too)</li>
+          <li> Press and hold Spacebar/Screen to jump higher </li>
+        <div><a href="#" class="back2">Back</a></div>         
+    </div>
     </div>
     <canvas id="canvas" width="800" height="800">
       <p>You're browser does not support the required functionality to play this game.</p>
       <p>Please update to a modern browser such as <a href="www.google.com/chrome/‎">Google Chrome</a> to play.</p>
     </canvas>
     <div id="game-over">
-      <h2>You ran <span color="white" id="score"></span> meters!</h2>
+      <h2>You ran <span id="score"></span> meters!</h2>
       <a href="#" class="restart">Try again?</a>
     </div>
   </div>
