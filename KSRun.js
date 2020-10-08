@@ -40,7 +40,7 @@
       'sky'           : 'imgs/sky.png',
       'backdrop'      : 'imgs/backdrop.png',
       'grey'         : 'imgs/grey.png',
-      'avatar_normal' : 'imgs/normal_walk_.png',
+      'avatar_normal' : 'imgs/normal_walk.png',
   //  'avatar_normal' : 'imgs/test.png',
       'grey2'        : 'imgs/grey2.png',
       'grey3'        : 'imgs/grey3.png',
@@ -367,7 +367,7 @@
     player.isJumping = false;
 
     // spritesheets
-    player.sheet     = new SpriteSheet('imgs/normal_walk_.png', player.width, player.height);
+    player.sheet     = new SpriteSheet('imgs/normal_walk.png', player.width, player.height);
     player.walkAnim  = new Animation(player.sheet, 2.5, 1,7);
     player.jumpAnim  = new Animation(player.sheet, 1, 1, 1);
     player.fallAnim  = new Animation(player.sheet, 1, 1, 1);
@@ -821,7 +821,7 @@
    */
   function startGame() {
     document.getElementById('game-over').style.display = 'none';
-       player.sheet  = new SpriteSheet('imgs/normal_walk_.png', player.width, player.height);
+       player.sheet  = new SpriteSheet('imgs/normal_walk.png', player.width, player.height);
     player.anim   = new Animation(player.sheet, 15, 0, 2.5);
     ground = [];
     //lava = [];
