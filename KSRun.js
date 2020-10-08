@@ -40,8 +40,8 @@
       'sky'           : 'imgs/sky.png',
       'backdrop'      : 'imgs/backdrop.png',
       'grey'         : 'imgs/grey.png',
-     // 'avatar_normal' : 'imgs/normal_walk_.png',
-      'avatar_normal' : 'imgs/test.png',
+      'avatar_normal' : 'imgs/normal_walk_.png',
+  //  'avatar_normal' : 'imgs/test.png',
       'grey2'        : 'imgs/grey2.png',
       'grey3'        : 'imgs/grey3.png',
       'bridge'        : 'imgs/bridge.png',
@@ -356,7 +356,7 @@
   {
     // add properties directly to the player imported object
     player.width     = 64;
-    player.height    = 56;
+    player.height    = 52;
     player.speed     = 8;
 
     // jumping
@@ -480,7 +480,7 @@
           case 'bridge': ctx.drawImage(assetLoader.imgs.bridge, this.x, this.y);break;
           case 'cliff': ctx.drawImage(assetLoader.imgs.cliff, this.x, this.y);break;
           case 'grey': ctx.drawImage(assetLoader.imgs.grey, this.x, this.y);break;
-          case 'baddie': ctx.drawImage(assetLoader.imgs.baddie, this.x, this.y);break;
+          case 'baddie': ctx.drawImage(assetLoader.imgs.baddie, this.x, this.y-18);break;
           case 'spikes': ctx.drawImage(assetLoader.imgs.spikes, this.x, this.y);break;
           case 'brick': ctx.drawImage(assetLoader.imgs.brick, this.x, this.y);break;
           case 'bush1': ctx.drawImage(assetLoader.imgs.bush1, this.x, this.y);break;
