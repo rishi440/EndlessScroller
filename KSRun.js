@@ -53,8 +53,8 @@
 
     //sounds
      this.sounds      = {
-      'bg'            : 'sounds/bg.mp3'
-      //'bg'            : 'sounds/driveInAtMidnight.mp3'
+      //'bg'            : 'sounds/bg.mp3'
+      'bg'            : 'sounds/driveInAtMidnight.mp3'
     };
 
 
